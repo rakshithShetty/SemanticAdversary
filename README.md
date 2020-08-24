@@ -10,6 +10,21 @@ Code for our paper "Towards Automated Testing and Robustification by Semantic Ad
 # Interpolation results
 ![Teaser](/gen_samples/gauss_vs_ours/train_COCO_train2014_000000184654.png)
 -->
+# Setup
+## Tested on
+* Python 3.6.7
+* PyTorch 1.5
+
+Download the coco dataset into data/coco directory
+Download the json file below which collects all the required meta data for COCO into the data/coco directory
+Download the pretrained models given below.
+
+To run interpolations between randomly sampled objects and compare results run the script as below.
+```
+CUDA_VISIBLE_DEVICES=X python compare_interpolations.py -m modelA.pth.tar modelB.pth.tar  -n savename_modelA savename_modelB  
+```
+Code to train the synthesizer network and to run adversarial attack will be released soon.
+
 # Downloads
 * [Pre-trained synthesizer model (our part-segmentation bottlneck)]() - Trained on COCO dataset for matching 18 pascal object categories. 
 * [Alternate synthesizer model (Gaussian bottlneck)]() - Trained on COCO dataset for matching 18 pascal object categories. 
