@@ -26,9 +26,9 @@ CUDA_VISIBLE_DEVICES=X python compare_interpolations.py -m modelA.pth.tar modelB
 Code to train the synthesizer network and to run adversarial attack will be released soon.
 
 # Downloads
-* [Pre-trained synthesizer model (our part-segmentation bottlneck)]() - Trained on COCO dataset for matching 18 pascal object categories. 
-* [Alternate synthesizer model (Gaussian bottlneck)]() - Trained on COCO dataset for matching 18 pascal object categories. 
-* [COCO dataset file](https://datasets.d2.mpi-inf.mpg.de/rakshith/object_removal_nips/datasetBoxAnn_80pcMaxObj_mrcnnval.json) - Single json file with metadata and annotations for the COCO dataset
+* [Pre-trained synthesizer model (our part-segmentation bottlneck)](https://datasets.d2.mpi-inf.mpg.de/rakshith/semadv/ourpas18model.pth.tar) - Trained on COCO dataset for matching 18 pascal object categories. 
+* [Alternate synthesizer model (Gaussian bottlneck)](https://datasets.d2.mpi-inf.mpg.de/rakshith/semadv/gausspas18model.pth.tar) - Trained on COCO dataset for matching 18 pascal object categories. 
+* [COCO dataset file](https://datasets.d2.mpi-inf.mpg.de/rakshith/semadv/datasetCompleteYoloSplit.json) - Single json file with metadata and annotations for the COCO dataset
 
 # Bibtex
 If you find this code useful in your work, please cite the paper.
