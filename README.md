@@ -1,6 +1,5 @@
 # Semantic Adversary
-Code for our paper "Towards Automated Testing and Robustification by Semantic Adversarial Data Generation"
-![Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470477.pdf)
+Code for our paper "Towards Automated Testing and Robustification by Semantic Adversarial Data Generation" ([Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470477.pdf))
 ![Teaser](/images/Teaser.png)
 # Explanatory Video
 [![Video](https://img.youtube.com/vi/1TiXRTJJikE/0.jpg)](https://www.youtube.com/watch?v=1TiXRTJJikE)
