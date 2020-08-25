@@ -1,10 +1,9 @@
 # Semantic Adversary
 Code for our paper "Towards Automated Testing and Robustification by Semantic Adversarial Data Generation"
-* [](https://datasets.d2.mpi-inf.mpg.de/rakshith/object_removal_nips/NIPS2018_poster.pdf)
+![Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470477.pdf)
 ![Teaser](/images/Teaser.png)
 # Explanatory Video
 [![Video](https://img.youtube.com/vi/1TiXRTJJikE/0.jpg)](https://www.youtube.com/watch?v=1TiXRTJJikE)
-
 
 <!---
 # Interpolation results
